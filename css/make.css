@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+main{
+  margin-left: 25px;
+}
+.content {
+    display: flex;
+    padding-bottom: 20px;
+  }
+.content:first-child{
+  margin-bottom: 88px;
+}
+label {
+  float: left;
+  width: 150px;
+  padding:0 10px;
+  font-size: 1.2rem;
+}  
+input,textarea{
+  background-color: #fff;
+  border-radius: 5px;
+}
+/* #select{
+  float: left;
+  width: 20px;
+} */
+#making{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#making input{
+  padding: 10px 20px;
+  background-color: #D7C25E;
+  color: #fff;
+}
+.fa-house{
+  color: #222;
+}

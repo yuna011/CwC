@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 84.4rem;
+    background-color: #F3EEE7;
+    /* background-image: url(../img/magic.png); */
+}
+.room_wrap{
+    margin: 88px auto 0;
+}
+.room_content{
+    line-height: 22px;
+}
+.room_details{
+    padding-bottom: 6px;
+    font-family: "Hiragino Mincho Pro";
+}
+.room_details h3{
+    padding: 6px 0;
+}
+.room_footer{
+    flex-direction: column;
+}
+.user_icon{
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+.user_icon p{
+    padding-right: 25px;
+}
+.user_icon img{
+    height: 38px;
+    margin-right: 25px;
+    border-radius: 100px;
+    background-color: skyblue;
+}
+.footer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.accordion-item{
+    border-radius: 5px;
+}
+.question{
+    width: 33.2rem;
+    margin: 8px auto;
+    cursor: pointer;
+
+    padding: 1rem;
+    background-color: #fff;
+}
+.accordion-header h2{
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.accordion-header i{
+    font-size: 20px;
+
+}
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-content {
+    display: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-top: solid 1px #222;
+    padding: 10px;
+  }
+.accordion-content img{
+    width: 15%;
+}
+
+
+#joinBtn{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#joinBtn a{
+    padding: 14px 32px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Hiragino Kaku Gothic Std";
+    background-color: #D7C25E;
+}
+.fa-comment-dots{
+    display: flex;
+    padding-left: 16px;
+    transform: scaleX(-1);
+    font-size: 4rem;
+    color: #D7C25E;
+}
+.fa-house{
+    color: #222;
+}

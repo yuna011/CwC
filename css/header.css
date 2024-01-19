@@ -1,0 +1,23 @@
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    border-bottom: 1px solid #d9d9d9;
+}
+header h1{
+    text-align: center;
+    width: 100vw;
+    padding: 42px 0 14px; 
+    font-size: 14px;
+    font-family: "Hiragino Mincho Pro";
+}
+header i{
+    padding: 42px 10px 14px; 
+    font-size: 2rem;
+    color: #222;
+}
+header i:visited{
+    color: #222;
+}

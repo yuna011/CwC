@@ -1,0 +1,17 @@
+html{
+    font-size: 62.5%;
+    }
+body{
+    background-color: #F3EEE7;
+    /* background-image: url(../img/magic.png); */
+}
+.chat{
+    display: flex;
+}
+.chat img{
+    height: 38px;
+    margin-right: 25px;
+    border-radius: 100px;
+    background-color: skyblue;
+    
+}

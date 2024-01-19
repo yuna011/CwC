@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+}
+footer{
+    position: fixed;
+    bottom: 0vh;
+    width: 100vw;
+}
+#footerWrap{
+    display: flex;
+    padding: 6px 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+}
+.icon a{
+    color: #222;
+}
+footer i{
+    font-size: 3rem;
+}
+footer i:hover{
+    color: #D7C25E;
+    transform: scale(115%);
+}
+
